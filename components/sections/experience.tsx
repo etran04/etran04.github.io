@@ -20,7 +20,7 @@ export function Experience() {
             )}
             <div className="flex gap-4 md:gap-6">
               <span
-                className="mt-2 hidden h-3.5 w-3.5 shrink-0 rounded-full border-2 border-emerald-600 bg-white md:block dark:border-emerald-400 dark:bg-zinc-950"
+                className="mt-2 hidden h-3.5 w-3.5 shrink-0 rounded-full border-2 border-accent bg-white md:block dark:bg-zinc-950"
                 aria-hidden
               />
               <div className="min-w-0 flex-1">
@@ -29,7 +29,7 @@ export function Experience() {
                     <h3 className="text-lg font-semibold text-zinc-900 dark:text-zinc-100">
                       {job.role}
                     </h3>
-                    <p className="text-emerald-600 dark:text-emerald-400">
+                    <p className="text-accent">
                       {job.company} · {job.location}
                     </p>
                   </div>
@@ -44,7 +44,7 @@ export function Experience() {
                       className="flex gap-3 text-zinc-600 dark:text-zinc-400"
                     >
                       <span
-                        className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-emerald-600 dark:bg-emerald-400"
+                        className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-accent"
                         aria-hidden
                       />
                       <span className="leading-relaxed">{bullet}</span>

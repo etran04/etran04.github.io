@@ -37,7 +37,7 @@ export function Projects() {
                   className="flex gap-3 text-zinc-600 dark:text-zinc-400"
                 >
                   <span
-                    className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-emerald-600 dark:bg-emerald-400"
+                    className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-accent"
                     aria-hidden
                   />
                   <span className="leading-relaxed">{bullet}</span>

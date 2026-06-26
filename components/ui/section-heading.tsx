@@ -11,11 +11,11 @@ export function SectionHeading({ id, title, className }: SectionHeadingProps) {
     <div className={cn("mb-8", className)}>
       <h2
         id={id}
-        className="text-sm font-semibold uppercase tracking-widest text-emerald-600 dark:text-emerald-400"
+        className="text-sm font-semibold uppercase tracking-widest text-accent"
       >
         {title}
       </h2>
-      <div className="mt-2 h-px w-12 bg-emerald-600/40 dark:bg-emerald-400/40" />
+      <div className="mt-2 h-px w-12 bg-accent-muted" />
     </div>
   );
 }
