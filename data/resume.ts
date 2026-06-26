@@ -17,6 +17,12 @@ export type Education = {
   year: string;
 };
 
+export type Project = {
+  name: string;
+  githubUrl: string;
+  bullets: string[];
+};
+
 export type Resume = {
   name: string;
   title: string;
@@ -24,6 +30,7 @@ export type Resume = {
   phone: string;
   summary: string;
   experience: Experience[];
+  projects: Project[];
   skills: SkillGroup[];
   education: Education[];
   links: {
@@ -85,6 +92,24 @@ export const resume: Resume = {
       ],
     },
   ],
+  projects: [
+    {
+      name: "Surplus",
+      githubUrl: "https://github.com/etran04/Surplus",
+      bullets: [
+        "Built an iOS marketplace connecting Cal Poly freshmen with surplus dining credit to upperclassmen and campus-area buyers.",
+        "Owned backend data handling and front-end design for listings, transactions, and credential exchange flows.",
+      ],
+    },
+    {
+      name: "Follow Me Audio",
+      githubUrl: "https://github.com/etran04/FollowMeAudio",
+      bullets: [
+        "Developed a Swift iOS app integrating iBeacons with Harman speakers for proximity-triggered audio playback.",
+        "Implemented beacon ranging and speaker handoff logic so audio followed users as they moved through a space.",
+      ],
+    },
+  ],
   skills: [
     {
       category: "Languages",
@@ -136,6 +161,7 @@ export const resume: Resume = {
 export const navItems = [
   { label: "About", href: "#about" },
   { label: "Experience", href: "#experience" },
+  { label: "Projects", href: "#projects" },
   { label: "Skills", href: "#skills" },
   { label: "Education", href: "#education" },
   { label: "Contact", href: "#contact" },
