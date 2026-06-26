@@ -73,6 +73,17 @@ export const resume: Resume = {
         "Recruited and mentored 8 junior engineers and interns through university channels over a 5-year tenure.",
       ],
     },
+    {
+      company: "Harman International",
+      role: "Software Development Intern",
+      location: "Palo Alto, CA",
+      dates: "June 2015 – September 2015",
+      bullets: [
+        "Built an end-to-end IoT proof-of-concept for Harman's connected speaker platform — modeled smart-home scenarios with multi-device audio orchestration.",
+        "Integrated third-party APIs and connected-home platforms into iOS client applications that powered the demo experience.",
+        "Supported engineering teams and hackathon participants on Harman SDK integration, troubleshooting, and adoption patterns.",
+      ],
+    },
   ],
   skills: [
     {
