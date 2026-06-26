@@ -1,6 +1,5 @@
 import { resume } from "@/data/resume";
 import { Button } from "@/components/ui/button";
-import { ArrowDown, Download } from "lucide-react";
 
 export function Hero() {
   return (
@@ -21,19 +20,7 @@ export function Hero() {
       </p>
       <div className="mt-10 flex flex-wrap gap-4">
         <Button href="#contact">Get in touch</Button>
-        <Button href="/resume.pdf" download variant="secondary">
-          <Download className="h-4 w-4" />
-          Download resume
-        </Button>
       </div>
-      <a
-        href="#about"
-        className="mt-16 inline-flex items-center gap-2 text-sm text-zinc-500 transition-colors hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-zinc-100"
-        aria-label="Scroll to about section"
-      >
-        <ArrowDown className="h-4 w-4 animate-bounce" />
-        Learn more
-      </a>
     </section>
   );
 }
