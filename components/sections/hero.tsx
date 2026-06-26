@@ -11,7 +11,7 @@ export function Hero() {
             src="/profile.png"
             alt={`Portrait of ${resume.name}`}
             fill
-            className="object-cover object-[center_-10%]"
+            className="object-cover object-[center_22%]"
             priority
           />
         </div>
