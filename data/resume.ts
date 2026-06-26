@@ -46,7 +46,7 @@ export const resume: Resume = {
   location: "San Francisco Bay Area",
   phone: "408.701.7348",
   summary:
-    "Senior Full Stack Software Engineer with 10+ years building consumer-scale products across frontend, backend, and platform systems. Shipped high-impact product and AI initiatives at Quizlet serving 60M+ monthly users — including RAG infrastructure, recommendation systems, subscriptions, and growth experiences.",
+    "Hey! You found me. I'm Eric, a full stack developer based in San Jose, CA. For the past 10+ years I've been building products people use every day, most recently at Quizlet on AI, search, and growth for 60M+ monthly users. What excites me most is the user-facing side: adding small, delightful touches and fixing the everyday problems that genuinely get in people's way. I love owning work end to end — from the backend to the screen someone is staring at when they're just trying to get something done.",
   experience: [
     {
       company: "Quizlet",

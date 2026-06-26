@@ -26,9 +26,8 @@ export function Hero() {
             {resume.title}
           </p>
           <p className="mt-6 max-w-2xl text-lg leading-relaxed text-zinc-600 dark:text-zinc-400">
-            Building consumer-scale products across frontend, backend, and platform
-            systems — from RAG infrastructure to growth experiences at 60M+ user
-            scale.
+            I build products people rely on — and care most about the details
+            that make everyday experiences feel a little better.
           </p>
           <div className="mt-10 flex flex-wrap justify-center gap-4 md:justify-start">
             <Button href="#contact">Get in touch</Button>
