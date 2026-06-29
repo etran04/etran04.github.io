@@ -13,7 +13,7 @@ export function Skills() {
       <div className="space-y-8">
         {resume.skills.map((group) => (
           <div key={group.category}>
-            <h3 className="mb-3 text-sm font-medium text-zinc-900 dark:text-zinc-100">
+            <h3 className="mb-3 text-sm font-medium text-zinc-900 dark:text-white">
               {group.category}
             </h3>
             <div className="flex flex-wrap gap-2">

@@ -13,7 +13,7 @@ export function Contact() {
       aria-labelledby="contact-heading"
     >
       <SectionHeading id="contact-heading" title="Contact" />
-      <p className="mb-8 max-w-2xl text-lg text-zinc-600 dark:text-zinc-400">
+      <p className="mb-8 max-w-2xl text-lg text-zinc-600 dark:text-zinc-300">
         Open to new opportunities and conversations. Reach out via email or
         LinkedIn — I&apos;d love to hear from you.
       </p>

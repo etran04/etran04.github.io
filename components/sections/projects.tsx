@@ -14,10 +14,10 @@ export function Projects() {
         {resume.projects.map((project) => (
           <li
             key={project.name}
-            className="rounded-xl border border-zinc-200 bg-zinc-50 p-6 dark:border-zinc-800 dark:bg-zinc-900/50"
+            className="rounded-xl border border-zinc-200 bg-zinc-50 p-6 dark:border-zinc-700 dark:bg-zinc-900"
           >
             <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
-              <h3 className="font-semibold text-zinc-900 dark:text-zinc-100">
+              <h3 className="font-semibold text-zinc-900 dark:text-white">
                 {project.name}
               </h3>
               <a
@@ -34,7 +34,7 @@ export function Projects() {
               {project.bullets.map((bullet) => (
                 <li
                   key={bullet}
-                  className="flex gap-3 text-zinc-600 dark:text-zinc-400"
+                  className="flex gap-3 text-zinc-600 dark:text-zinc-300"
                 >
                   <span
                     className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-accent"

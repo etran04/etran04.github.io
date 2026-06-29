@@ -16,17 +16,17 @@ export function Hero() {
           />
         </div>
         <div className="min-w-0 flex-1 text-center md:text-left">
-          <p className="mb-4 text-sm font-medium text-accent">
+          <p className="mb-4 text-sm font-medium text-accent-foreground">
             {resume.location}
           </p>
-          <h1 className="text-4xl font-bold tracking-tight text-zinc-900 sm:text-5xl md:text-6xl dark:text-zinc-50">
+          <h1 className="text-4xl font-bold tracking-tight text-zinc-900 sm:text-5xl md:text-6xl dark:text-white">
             {resume.name}
           </h1>
-          <p className="mt-4 max-w-2xl text-xl text-zinc-600 md:text-2xl dark:text-zinc-400">
+          <p className="mt-4 max-w-2xl text-xl text-zinc-600 md:text-2xl dark:text-zinc-200">
             {resume.title}
           </p>
-          <p className="mt-6 max-w-2xl text-lg leading-relaxed text-zinc-600 dark:text-zinc-400">
-            I build products people rely on — and care most about the details
+          <p className="mt-6 max-w-2xl text-lg leading-relaxed text-zinc-600 dark:text-zinc-300">
+            I build products people rely on, and care most about the details
             that make everyday experiences feel a little better.
           </p>
           <div className="mt-10 flex flex-wrap justify-center gap-4 md:justify-start">

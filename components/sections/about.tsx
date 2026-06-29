@@ -9,7 +9,7 @@ export function About() {
       aria-labelledby="about-heading"
     >
       <SectionHeading id="about-heading" title="About" />
-      <p className="max-w-3xl text-lg leading-relaxed text-zinc-600 dark:text-zinc-400">
+      <p className="max-w-3xl text-lg leading-relaxed text-zinc-600 dark:text-zinc-300">
         {resume.summary}
       </p>
     </section>

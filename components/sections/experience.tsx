@@ -26,10 +26,10 @@ export function Experience() {
               <div className="min-w-0 flex-1">
                 <div className="flex flex-col gap-1 sm:flex-row sm:items-baseline sm:justify-between">
                   <div>
-                    <h3 className="text-lg font-semibold text-zinc-900 dark:text-zinc-100">
+                    <h3 className="text-lg font-semibold text-zinc-900 dark:text-white">
                       {job.role}
                     </h3>
-                    <p className="text-accent">
+                    <p className="text-accent-foreground">
                       {job.company} · {job.location}
                     </p>
                   </div>
@@ -41,7 +41,7 @@ export function Experience() {
                   {job.bullets.map((bullet) => (
                     <li
                       key={bullet}
-                      className="flex gap-3 text-zinc-600 dark:text-zinc-400"
+                      className="flex gap-3 text-zinc-600 dark:text-zinc-300"
                     >
                       <span
                         className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-accent"
